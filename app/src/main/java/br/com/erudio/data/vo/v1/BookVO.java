@@ -12,7 +12,7 @@ import com.github.dozermapper.core.Mapping;
 @JsonPropertyOrder({ "id", "author", "launchDate", "price", "title" })
 public class BookVO extends ResourceSupport implements Serializable{
  
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 2L;
 
 	@Mapping("id")
 	@JsonProperty("id")
